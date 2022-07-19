@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lato&family=Merienda:wght@700&family=Pacifico&family=Poppins&family=Satisfy&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* ----------------------
+      top-banner
+----------------------- */
+.top-banner{
+    width: 1150px;
+    height: 600px;
+    background: #161616;
+    border-radius: 30px;
+    margin: 50px 110px;
+    display: flex;
+    justify-content: center;
+}
+.top-banner-info{
+    width: 531px;
+    height: 424px;
+    color: white;
+    width: 50%;
+    margin-left: 100px;
+}
+#top-banner-info-heading{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+#top-banner-info-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.top-banner-button{
+    background: #DD0000;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 25px;
+    animation: style 2s linear  infinite alternate ;
+    
+}
+.top-banner-image{
+    width: 581px;
+    height: 613px;
+    /* padding-top: 100px; */
+}
+.top-banner-image img{
+    width: 500px;
+    height: 550px;
+    padding-top: 50px;
+}
+/*--------------------------
+ 
+    button animation 
+--------------------------*/
+@keyframes style{
+    0%{
+        background-color: aqua;
+    }  
+    50%
+    {
+        background-color: blueviolet;
+    }  
+    100%{
+        background-color: #DD0000;
+    }
+}
+
+/* ----------------------
+middle part 
+---------------------*/
+.middle-part{
+    display: flex;
+}
+.fixed-part{
+    width: 190px;
+    height: 180px;
+    background: #161616;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 110px;
+}
+
+.fixed-part-button{
+    width: 120px;
+    height: 40px;
+    background-color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 20px;
+    
+}
+.matches a{
+    text-decoration: none;
+    color: #161616;
+}
+.blog{
+    background: #DD0000;
+    color: white;
+    
+}
+.match{
+    background: #DD0000;
+    color: white;
+}
+.grid-parts{
+    
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 50px;
+    grid-column-gap: 115px;
+    margin-right: 110px;
+    
+}
+.grid-part{
+    width: 312px;
+    height: 362px   
+}
+.gride-image img{
+    height: 175px;
+    left: 476px;
+}
+.grid-info-button{
+    width: 100px;
+    height: 32px; 
+    font-weight: 700; 
+    margin-left: 25px; 
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.grid-info-heading{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 25px;
+}
+.grid-info-paragraph{
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 0px;
+}
+/*----------------------------------
+ Footer
+ ----------------------------------*/
+ footer{
+    width: 100%;
+    height: 300px;
+    background-color: #161616;
+    margin-top: 10px;
+ }
+ .footer-head{
+    padding-top: 50px;
+ }
+ .footer-head-heading{
+    text-align: center;
+
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+ }
+ .footer-hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 900px;
+ }
+ .social-links{
+    display: flex;
+    margin: 5px 100px;
+    justify-content: space-evenly;
+ }
+ .social-link p{
+    color: #B9B9B9;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+ }
+ /*-------------------------------- 
+ matches 
+ ---------------------------------*/
+ .match-flag{
+    display: flex;
+    justify-content: center;
+    
+ }
+ .match-flag img{
+    width: 93.04px;
+    height: 54.42px;
+    margin: 0 8px;
+ }
+ .match-vs{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #161616;
+    margin-top: 15px;
+}
+.match-info-heading{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #161616;
+}
+.match-info-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #4D4D4D;
+}
