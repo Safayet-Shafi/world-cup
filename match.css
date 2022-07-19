@@ -185,6 +185,17 @@ middle part
     font-size: 16px;
     line-height: 24px;
  }
+ .social-media i{
+    color: #B9B9B9;
+    font-size: 30px;
+    text-align: center;
+ }
+ .social-media{
+    
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+ }
  /*-------------------------------- 
  matches 
  ---------------------------------*/
