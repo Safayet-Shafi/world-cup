@@ -124,7 +124,8 @@ middle part
 }
 .grid-part{
     width: 312px;
-    height: 362px   
+    height: 362px;
+    box-shadow: 10px 10px 10px rgb(151, 148, 148);  
 }
 .gride-image img{
     height: 175px;
@@ -149,6 +150,9 @@ middle part
     font-size: 20px;
     margin-left: 25px;
     margin-top: 0px;
+}
+.view-more{
+    display: none;
 }
 /*----------------------------------
  Footer
@@ -231,6 +235,9 @@ middle part
     text-align: center;
     color: #4D4D4D;
 }
+.view-more{
+    display: none;
+}
 /*----------------------- 
 tab responsive
 -------------------------- */
@@ -294,7 +301,7 @@ tab responsive
         color: white;
         margin-top: 5%;
         padding: 10px 15px;
-        margin-left: 50%;
+        margin-left: 45%;
         border-radius: 10px;
         
     }
